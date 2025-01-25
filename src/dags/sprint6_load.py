@@ -145,7 +145,6 @@ def get_load_id(**kwargs):
 def sprint6_load(**context):
     bucket_files = {'users': ['id', 'chat_name', 'registration_dt', 'country', 'age'], 
                     'groups': ['id', 'admin_id', 'group_name', 'registration_dt', 'is_private'], 
-                    # 'dialogs': ['message_id', 'message_ts', 'message_from', 'message_to', 'message', 'message_group'],
                     'group_log': ['group_id', 'user_id', 'user_id_from', 'group_event',
                            'event_timestamp']}
 

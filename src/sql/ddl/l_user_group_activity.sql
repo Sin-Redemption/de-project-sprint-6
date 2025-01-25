@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS STV2024111115__DWH.l_user_group_activity;
 CREATE TABLE STV2024111115__DWH.l_user_group_activity
 (
     hk_l_user_group_activity int NOT NULL,
